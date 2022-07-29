@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 10vh;
+
+}
+.logo{
+    width: 9%;
+    position: absolute;
+    left: 3%;
+    top: 2%;
+}
+.line{
+    font-size: 55px;
+    position: absolute;
+    left: 13%;
+    top: 1%;
+}
+.list{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 48%;
+
+
+}
+.list-item{
+    padding: 27px 25px;
+    font-size: 18px;
+}
+.list-item:hover{
+    font-weight: bold;
+    color: azure;
+    cursor: pointer;
+    text-decoration: underline;
+
+
+}
+
+
+
+.button-small{
+    position: absolute;
+    right: 10%;
+    top: 3%;
+    padding: 8px 19px;
+    border-radius: 7px;
+    background-color:#be2dc8;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.button-small:hover{
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 89vh;
+    width: 100vw;
+}
+.hero{
+   position: absolute;
+   bottom: 48%;
+   left: 24%;
+}
+.hero h1{
+    color: #FFFFFF;
+    font-size: 68px;
+    width: 53%;
+}
+.hero p{
+    color:#FFFFFF;
+    font-size: 23px;
+}
+.hero button{
+    border: none;
+    background-color: #be2dc8;
+    color: #FFFFFF;
+    padding: 15px 14px;
+    font-size: 25px;
+    position: absolute;
+    border-radius: 9px;
+    top: 120%;
+    left: 10%;
+}
+.button-large:hover{
+    cursor: pointer;
+    /* font-weight: bold; */
+}
